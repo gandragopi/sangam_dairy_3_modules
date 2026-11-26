@@ -1,0 +1,1476 @@
+[
+  {
+    "name": "Badam Milk",
+    "image": "assets/images/milk/badammilk.png",
+    "category": "Milk",
+    "price": 40,
+    "fat": "1.5%",
+    "snf": "9.0%",
+    "packSize": "200 ML",
+    "shelfLife": "3 months from date of manufacture when stored in a cool place",
+    "storage": "-",
+    "description": "A refreshing milk drink blended with the rich taste of badam for a smooth and delicious experience."
+  },
+  {
+    "name": "Badam Nuts Milk",
+    "image": "assets/images/milk/badam_nuts_milk.png",
+    "category": "Milk",
+    "price": 40,
+    "fat": "1.5%",
+    "snf": "9.0%",
+    "packSize": "200 ML",
+    "shelfLife": "3 months from date of manufacture",
+    "description": "A creamy milk beverage with the delightful taste of badam and nuts, perfect for a tasty refreshment."
+  },
+  {
+    "name": "Chocolate Milk",
+    "image": "assets/images/milk/chocolate_milk.png",
+    "category": "Milk",
+    "price": 30,
+    "fat": "3.0%",
+    "snf": "8.5%",
+    "packSize": "200 ML",
+    "shelfLife": "3 months from date of manufacture",
+    "storage": "-",
+    "description": "Smooth and delicious milk combined with a rich chocolate flavour for a satisfying treat."
+  },
+  {
+    "name": "Double Toned Milk",
+    "image": "assets/images/milk/double_toned_milk.png",
+    "category": "Milk",
+    "price": 30,
+    "fat": "1.5%",
+    "snf": "9.0%",
+    "packSize": "500 ML",
+    "shelfLife": "72 hrs from the date of packing when stored below 5 °C",
+    "storage": "-",
+    "description": "Light and refreshing double toned milk made for everyday consumption with a balanced taste.",
+    "variants": [
+      {
+        "label": "500 ML",
+        "packSize": "500 ML",
+        "price": 30,
+        "image": "assets/images/milk/double_toned_milk.png"
+      },
+      {
+        "label": "180 ML",
+        "packSize": "180 ML",
+        "price": 15,
+        "image": "assets/images/milk/double_toned_milk_180ml.png"
+      }
+    ]
+  },
+  {
+    "name": "DTM Cow Tetra Pack",
+    "image": "assets/images/milk/dtm_cow_tetra_packet.png",
+    "category": "Milk",
+    "price": 35,
+    "fat": "1.5%",
+    "snf": "9.0%",
+    "packSize": "180 ml Tetra pack film for DTM Milk",
+    "shelfLife": "180 ml DTm & DTCm - 90 day from date of manufacture when stored in a cool & dry place",
+    "storage": "-",
+    "description": "Convenient tetra pack packaging for double toned milk, designed for easy storage and serving."
+  },
+  {
+    "name": "DTM Tetra Pack",
+    "image": "assets/images/milk/dtm_tetra_packet.png",
+    "category": "Milk",
+    "price": 35,
+    "fat": "1.5%",
+    "snf": "9.0%",
+    "packSize": "180 ml Tetra pack film for DTM & DTCM Milk.",
+    "shelfLife": "-",
+    "storage": "-",
+    "description": "A convenient tetra pack format suitable for enjoying double toned milk on the go."
+  },
+  {
+    "name": "Extra Life Tetra Packet",
+    "image": "assets/images/milk/extra_life_tetra_packet.png",
+    "category": "Milk",
+    "price": 40,
+    "fat": "3.0%",
+    "snf": "8.5% (Fortified with Vit A)",
+    "packSize": "500 ML",
+    "shelfLife": "-",
+    "storage": "-",
+    "description": "Fortified toned milk in convenient tetra packaging, enriched with Vitamin A for everyday nourishment."
+  },
+  {
+    "name": "FCM Gold Plus Milk",
+    "image": "assets/images/milk/fcm_gold_plus_milk.png",
+    "category": "Milk",
+    "price": 45,
+    "fat": "6.5%",
+    "snf": "9.0%",
+    "packSize": "500 ML",
+    "shelfLife": "72 hrs from the date of packing when stored at 5 °C",
+    "storage": "-",
+    "description": "Rich full cream milk with a naturally creamy taste, ideal for tea, coffee and everyday drinking."
+  },
+  {
+    "name": "FCM Homogenised Gold Plus Milk",
+    "image": "assets/images/milk/fcm_homogenised_gold_plus_milk.png",
+    "category": "Milk",
+    "price": 60,
+    "fat": "6.0%",
+    "snf": "9.0%",
+    "packSize": "1000 ML",
+    "shelfLife": "72 hrs from the date of packing when stored below 5 °C",
+    "storage": "-",
+    "description": "Rich and creamy homogenised full cream milk with a smooth texture and delicious dairy taste.",
+    "variants": [
+      {
+        "label": "1000 ML",
+        "packSize": "1000 ML",
+        "price": 60,
+        "image": "assets/images/milk/fcm_homogenised_gold_plus_milk.png"
+      },
+      {
+        "label": "500 ML",
+        "packSize": "500 ML",
+        "price": 35,
+        "image": "assets/images/milk/fcm_homogenized_gold_plus_milk_500ml.png"
+      },
+      {
+        "label": "130 ML",
+        "packSize": "130 ML",
+        "price": 12,
+        "image": "assets/images/milk/fcm_homogenized_gold_plus_milk_130ml.png"
+      }
+    ]
+  },
+  {
+    "name": "Homogenised Whole Milk",
+    "image": "assets/images/milk/homogenised_whole_milk.png",
+    "category": "Milk",
+    "price": 45,
+    "fat": "6.0%",
+    "snf": "9.0%",
+    "packSize": "500 ML",
+    "shelfLife": "72 hrs from the date of manufacture when stored at 5 °C",
+    "storage": "-",
+    "description": "Smooth and creamy homogenised whole milk with a rich dairy taste for everyday use."
+  },
+  {
+    "name": "Pasteurised Toned Milk",
+    "image": "assets/images/milk/pasteurised_toned_milk.png",
+    "category": "Milk",
+    "price": 50,
+    "fat": "3.0%",
+    "snf": "8.5%",
+    "packSize": "1000 ML",
+    "shelfLife": "72 hrs from the date of packing when stored below 5 °C",
+    "storage": "-",
+    "description": "Fresh pasteurised toned milk with a balanced taste, suitable for everyday drinking and cooking.",
+    "variants": [
+      {
+        "label": "1000 ML",
+        "packSize": "1000 ML",
+        "price": 50,
+        "image": "assets/images/milk/pasteurised_toned_milk.png"
+      },
+      {
+        "label": "500 ML",
+        "packSize": "500 ML",
+        "price": 30,
+        "image": "assets/images/milk/pasteurised_toned_milk_500ml.png"
+      },
+      {
+        "label": "170 ML",
+        "packSize": "170 ML",
+        "price": 22,
+        "image": "assets/images/milk/pasteurised_toned_milk_170ml.png"
+      }
+    ]
+  },
+  {
+    "name": "Pineapple Milk",
+    "image": "assets/images/milk/pineapple_milk.png",
+    "category": "Milk",
+    "price": 30,
+    "fat": "1.5%",
+    "snf": "9.0%",
+    "packSize": "200 ML",
+    "shelfLife": "3 months from date of manufacture when stored in a cool place",
+    "storage": "-",
+    "description": "A refreshing milk beverage with a fruity pineapple flavour for a sweet and enjoyable taste."
+  },
+  {
+    "name": "Skim Milk Powder",
+    "image": "assets/images/milk/skim_milk_powder.png",
+    "category": "Milk",
+    "price": 150,
+    "fat": "1.5%",
+    "MSNF min": "96%",
+    "packSize": "500 G",
+    "shelfLife": "Best Before 9 months from date of manufacturing when store at cool and dry place & 18 months for 25 kg HDPE Kraft Paper Bag",
+    "storage": "store at cool and dry place",
+    "description": "Fine skim milk powder with a light dairy profile, convenient for preparing milk-based foods and beverages.",
+    "variants": [
+      {
+        "packSize": "500 G",
+        "price": 150,
+        "image": "assets/images/milk/skim_milk_powder.png"
+      },
+      {
+        "packSize": "1 KG",
+        "price": 300,
+        "image": "assets/images/milk/skim_milk_powder_1kg.png"
+      }
+    ],
+    "snf": "96%"
+  },
+  {
+    "name": "STM Homogenised Milk",
+    "image": "assets/images/milk/stm_homogenised_milk.png",
+    "category": "Milk",
+    "price": 35,
+    "fat": "4.5%",
+    "snf": "8.5%",
+    "packSize": "500 ML",
+    "shelfLife": "72 hrs from the date of manufacture when stored at 5 °C",
+    "storage": "-",
+    "description": "Smooth homogenised milk with a balanced creamy taste, suitable for everyday family consumption."
+  },
+  {
+    "name": "Strawberry Milk",
+    "image": "assets/images/milk/strawberry_milk.png",
+    "category": "Milk",
+    "price": 30,
+    "fat": "1.5%",
+    "snf": "9.0%",
+    "packSize": "200 ML",
+    "shelfLife": "3 months from date of manufacture when stored in a cool place",
+    "storage": "-",
+    "description": "Smooth milk blended with a delicious strawberry flavour for a refreshing and enjoyable drink."
+  },
+  {
+    "name": "TM Tetra Packet",
+    "image": "assets/images/milk/tm_tetra_packet.png",
+    "category": "Milk",
+    "price": 35,
+    "fat": "3.0%",
+    "snf": "8.5%",
+    "packSize": "1 L Brick For TM",
+    "shelfLife": "180 days from date of manufacture when stored in a cool & dry place",
+    "storage": "-",
+    "description": "Convenient 1 litre tetra brick of toned milk, designed for easy storage and everyday use."
+  },
+  {
+    "name": "Double Toned Milk Curd",
+    "image": "assets/images/milkproducts/double_toned_milk_curd.png",
+    "category": "Milk Products",
+    "price": 340,
+    "fat": "1.5%",
+    "snf": "9.0%",
+    "packSize": "5 kG",
+    "shelfLife": "10 days under refrigeration below 5 °C",
+    "storage": "Keep refrigerated below 5 °C",
+    "description": "Smooth and refreshing double toned curd with a light and creamy texture for everyday meals.",
+    "variants": [
+      {
+        "label": "5 kG",
+        "packSize": "5 kG",
+        "price": 340,
+        "image": "assets/images/milkproducts/double_toned_milk_curd.png"
+      },
+      {
+        "label": "10 KG",
+        "packSize": "10 KG",
+        "price": 670,
+        "image": "assets/images/milkproducts/double_toned_milk_curd_10kg.png"
+      }
+    ]
+  },
+  {
+    "name": "Full Cream Milk",
+    "image": "assets/images/milkproducts/full_cream_milk.png",
+    "category": "Milk Products",
+    "price": 40,
+    "fat": "6.0%",
+    "snf": "9.0%",
+    "packSize": "500 ML",
+    "shelfLife": "72 hrs",
+    "storage": "Store at 5°C",
+    "description": "Rich and creamy full cream milk with a smooth texture, perfect for drinking and daily dairy needs."
+  },
+  {
+    "name": "Toned Milk Curd",
+    "image": "assets/images/milkproducts/toned_milk_curd_75g.png",
+    "category": "Milk Products",
+    "price": 10,
+    "fat": "3.0%",
+    "snf": "8.5%",
+    "packSize": "75 G",
+    "shelfLife": "10 days under refrigeration below 5 °C",
+    "storage": "Keep refrigerated below 5 °C",
+    "description": "Fresh and creamy toned milk curd with a smooth texture, ideal for meals, snacks and everyday use.",
+    "variants": [
+      {
+        "label": "75 G",
+        "packSize": "75 G",
+        "price": 10,
+        "image": "assets/images/milkproducts/toned_milk_curd_75g.png"
+      },
+      {
+        "label": "130 G",
+        "packSize": "130 G",
+        "price": 12,
+        "image": "assets/images/milkproducts/toned_milk_curd_130g.png"
+      },
+      {
+        "label": "200 G",
+        "packSize": "200 G",
+        "price": 15,
+        "image": "assets/images/milkproducts/toned_milk_curd_200g.png"
+      },
+      {
+        "label": "450 G",
+        "packSize": "450 G",
+        "price": 30,
+        "image": "assets/images/milkproducts/toned_milk_curd_450g.png"
+      },
+      {
+        "label": "900 G",
+        "packSize": "900 G",
+        "price": 60,
+        "image": "assets/images/milkproducts/toned_milk_curd_900g.png"
+      },
+      {
+        "label": "5 KG",
+        "packSize": "5 KG",
+        "price": 250,
+        "image": "assets/images/milkproducts/toned_milk_curd_5kg.png"
+      },
+      {
+        "label": "10 KG",
+        "packSize": "10 KG",
+        "price": 500,
+        "image": "assets/images/milkproducts/toned_milk_curd_10kg.png"
+      }
+    ]
+  },
+  {
+    "name": "Standardized Milk Curd",
+    "image": "assets/images/milkproducts/standardized_milk_curd_100g.png",
+    "category": "Milk Products",
+    "price": 40,
+    "fat": "4.5%",
+    "snf": "8.5%",
+    "packSize": "100 G",
+    "shelfLife": "10 days under refrigeration below 5 °C",
+    "storage": "Keep refrigerated below 5 °C",
+    "description": "Rich and creamy standardized milk curd with a smooth consistency, suitable for everyday meals and snacks.",
+    "variants": [
+      {
+        "label": "100 G",
+        "packSize": "100 G",
+        "price": 40,
+        "image": "assets/images/milkproducts/standardized_milk_curd_100g.png"
+      },
+      {
+        "label": "200 G",
+        "packSize": "200 G",
+        "price": 70,
+        "image": "assets/images/milkproducts/standardized_milk_curd_200g.png"
+      },
+      {
+        "label": "400 G",
+        "packSize": "400 G",
+        "price": 130,
+        "image": "assets/images/milkproducts/standardized_milk_curd_400g.png"
+      },
+      {
+        "label": "500 G",
+        "packSize": "500 G",
+        "price": 150,
+        "image": "assets/images/milkproducts/standardized_milk_curd_500g.png"
+      },
+      {
+        "label": "1 KG",
+        "packSize": "1 KG",
+        "price": 280,
+        "image": "assets/images/milkproducts/standardized_milk_curd_1kg.png"
+      },
+      {
+        "label": "5 KG",
+        "packSize": "5 KG",
+        "price": 1350,
+        "image": "assets/images/milkproducts/standardized_milk_curd_5kg.png"
+      },
+      {
+        "label": "10 KG",
+        "packSize": "10 KG",
+        "price": 2600,
+        "image": "assets/images/milkproducts/standardized_milk_curd_10kg.png"
+      }
+    ]
+  },
+  {
+    "name": "Cooking Butter",
+    "image": "assets/images/milkproducts/cooking_butter.png",
+    "category": "Milk Products",
+    "price": 60,
+    "fat": "80%",
+    "packSize": "100 G",
+    "shelfLife": "Best Before 8 months from date of manufacturing when stored in -18°C",
+    "storage": "stored in -18°C",
+    "description": "Rich and creamy cooking butter with a smooth texture, ideal for cooking and everyday kitchen use.",
+    "variants": [
+      {
+        "label": "100 G",
+        "packSize": "100 G",
+        "price": 60,
+        "image": "assets/images/milkproducts/cooking_butter.png"
+      },
+      {
+        "label": "500 G",
+        "packSize": "500 G",
+        "price": 280,
+        "image": "assets/images/milkproducts/cooking_butter_500g.png"
+      }
+    ]
+  },
+  {
+    "name": "Table Butter",
+    "image": "assets/images/milkproducts/table_butter.png",
+    "category": "Milk Products",
+    "price": 60,
+    "fat": "80%",
+    "packSize": "100 G",
+    "shelfLife": "Best Before 12 months from date of manufacturing when stored in Deep freeze at -18°C",
+    "storage": "stored in Deep freeze at -18°C",
+    "description": "Smooth and creamy table butter with a rich dairy taste, perfect for spreading, breakfast and snacks.",
+    "variants": [
+      {
+        "label": "100 G",
+        "packSize": "100 G",
+        "price": 60,
+        "image": "assets/images/milkproducts/table_butter.png"
+      },
+      {
+        "label": "500 G",
+        "packSize": "500 G",
+        "price": 280,
+        "image": "assets/images/milkproducts/table_butter_500g.png"
+      }
+    ]
+  },
+  {
+    "name": "White Butter",
+    "image": "assets/images/milkproducts/white_butter.png",
+    "category": "Milk Products",
+    "price": 500,
+    "packSize": "20 kG",
+    "description": "Fresh-style white butter with a creamy dairy character, suitable for cooking and food preparation."
+  },
+  {
+    "name": "Cow Ghee",
+    "image": "assets/images/milkproducts/cow_ghee.png",
+    "category": "Milk Products",
+    "price": 150,
+    "fat": "99.7g",
+    "packSize": "100 ML",
+    "shelfLife": "6 months",
+    "storage": "Store in a cool, dry place",
+    "description": "Aromatic cow ghee with a rich traditional flavour, ideal for cooking, sweets and everyday meals.",
+    "variants": [
+      {
+        "label": "100 ML",
+        "packSize": "100 ML",
+        "price": 150,
+        "image": "assets/images/milkproducts/cow_ghee.png"
+      },
+      {
+        "label": "200 ML",
+        "packSize": "200 ML",
+        "price": 300,
+        "image": "assets/images/milkproducts/cow_ghee_200ml.png"
+      },
+      {
+        "label": "500 ML",
+        "packSize": "500 ML",
+        "price": 700,
+        "image": "assets/images/milkproducts/cow_ghee_500ml.png"
+      },
+      {
+        "label": "1 LTR",
+        "packSize": "1 LTR",
+        "price": 1400,
+        "image": "assets/images/milkproducts/cow_ghee_1ltr.png"
+      },
+      {
+        "label": "5 LTR",
+        "packSize": "5 LTR",
+        "price": 6800,
+        "image": "assets/images/milkproducts/cow_ghee_5ltr.png"
+      },
+      {
+        "label": "15 ML Pouch",
+        "packSize": "15 ML",
+        "price": 25,
+        "image": "assets/images/milkproducts/cow_ghee_pouch_15ml.png"
+      },
+      {
+        "label": "30 ML Pouch",
+        "packSize": "30 ML",
+        "price": 50,
+        "image": "assets/images/milkproducts/cow_ghee_pouch_30ml.png"
+      },
+      {
+        "label": "500 ML Pouch",
+        "packSize": "500 ML",
+        "price": 700,
+        "image": "assets/images/milkproducts/cow_ghee_pouch_500ml.png"
+      },
+      {
+        "label": "1 LTR Pouch",
+        "packSize": "1 LTR",
+        "price": 1400,
+        "image": "assets/images/milkproducts/cow_ghee_pouch_1ltr.png"
+      },
+      {
+        "label": "15 KG Tin",
+        "packSize": "15 KG",
+        "price": 20000,
+        "image": "assets/images/milkproducts/cow_ghee_tin_15kg.png"
+      }
+    ]
+  },
+  {
+    "name": "Buffalo Ghee",
+    "image": "assets/images/milkproducts/buffalo_ghee.png",
+    "category": "Milk Products",
+    "price": 250,
+    "fat": "99.7g",
+    "snf": "N/A",
+    "packSize": "100 G",
+    "shelfLife": "6 months",
+    "storage": "Store in a cool, dry place",
+    "description": "Rich and aromatic buffalo ghee with a traditional dairy flavour, suitable for cooking, sweets and special dishes.",
+    "variants": [
+      {
+        "label": "100 G",
+        "packSize": "100 G",
+        "price": 250,
+        "image": "assets/images/milkproducts/buffalo_ghee.png"
+      },
+      {
+        "label": "200 G",
+        "packSize": "200 G",
+        "price": 500,
+        "image": "assets/images/milkproducts/buffalo_ghee_200g.png"
+      },
+      {
+        "label": "500 G",
+        "packSize": "500 G",
+        "price": 1200,
+        "image": "assets/images/milkproducts/buffalo_ghee_500g.png"
+      },
+      {
+        "label": "1 LTR",
+        "packSize": "1 LTR",
+        "price": 2400,
+        "image": "assets/images/milkproducts/buffalo_ghee_1ltr.png"
+      },
+      {
+        "label": "5 LTR",
+        "packSize": "5 LTR",
+        "price": 11500,
+        "image": "assets/images/milkproducts/buffalo_ghee_5ltr.png"
+      },
+      {
+        "label": "200 ML Pouch",
+        "packSize": "200 ML",
+        "price": 500,
+        "image": "assets/images/milkproducts/buffalo_ghee_pouch_200ml.png"
+      },
+      {
+        "label": "500 ML Pouch",
+        "packSize": "500 ML",
+        "price": 1200,
+        "image": "assets/images/milkproducts/buffalo_ghee_pouch_500ml.png"
+      },
+      {
+        "label": "1 LTR Pouch",
+        "packSize": "1 LTR",
+        "price": 2400,
+        "image": "assets/images/milkproducts/buffalo_ghee_pouch_1ltr.png"
+      },
+      {
+        "label": "15 KG Tin",
+        "packSize": "15 KG",
+        "price": 33000,
+        "image": "assets/images/milkproducts/buffalo_ghee_tin_15kg.png"
+      }
+    ]
+  },
+  {
+    "name": "Dining Buffalo Ghee",
+    "image": "assets/images/milkproducts/dining_buffalo_ghee.png",
+    "category": "Milk Products",
+    "price": 200,
+    "fat": "99.7g",
+    "packSize": "200 ML",
+    "shelfLife": "3 months",
+    "storage": "Store in a cool, dry place",
+    "description": "Aromatic buffalo ghee designed for everyday cooking, adding a rich and traditional flavour to meals.",
+    "variants": [
+      {
+        "label": "200 ML",
+        "packSize": "200 ML",
+        "price": 200,
+        "image": "assets/images/milkproducts/dining_buffalo_ghee.png"
+      },
+      {
+        "label": "500 ML",
+        "packSize": "500 ML",
+        "price": 500,
+        "image": "assets/images/milkproducts/dining_buffalo_ghee_500ml.png"
+      }
+    ]
+  },
+  {
+    "name": "High Aroma Buffalo Ghee",
+    "image": "assets/images/milkproducts/high_aroma_buffalo_ghee.png",
+    "category": "Milk Products",
+    "price": 500,
+    "fat": "99.7g",
+    "snf": "N/A",
+    "packSize": "1000 ML",
+    "shelfLife": "6 months",
+    "storage": "Store in a cool, dry place",
+    "description": "Premium aromatic buffalo ghee with a rich traditional aroma and flavour, suitable for cooking and sweets.",
+    "variants": [
+      {
+        "label": "15 ML",
+        "packSize": "15 ML",
+        "price": 20,
+        "image": "assets/images/milkproducts/high_aroma_buffalo_ghee_15ml.png"
+      },
+      {
+        "label": "30 ML",
+        "packSize": "30 ML",
+        "price": 40,
+        "image": "assets/images/milkproducts/high_aroma_buffalo_ghee_30ml.png"
+      },
+      {
+        "label": "100 ML",
+        "packSize": "100 ML",
+        "price": 100,
+        "image": "assets/images/milkproducts/high_aroma_buffalo_ghee_100ml.png"
+      },
+      {
+        "label": "200 ML",
+        "packSize": "200 ML",
+        "price": 150,
+        "image": "assets/images/milkproducts/high_aroma_buffalo_ghee_200ml.png"
+      },
+      {
+        "label": "500 ML",
+        "packSize": "500 ML",
+        "price": 250,
+        "image": "assets/images/milkproducts/high_aroma_buffalo_ghee_500ml.png"
+      },
+      {
+        "label": "1000 ML",
+        "packSize": "1000 ML",
+        "price": 500,
+        "image": "assets/images/milkproducts/high_aroma_buffalo_ghee.png"
+      }
+    ]
+  },
+  {
+    "name": "Cream",
+    "image": "assets/images/milkproducts/cream_packet.png",
+    "category": "Milk Products",
+    "price": 160,
+    "fat": "25%",
+    "packSize": "1 L",
+    "shelfLife": "1 L Low Fat Cream Brick - 120 days from date of manufacture when stored in a cool & dry place",
+    "storage": "stored in a cool & dry place",
+    "description": "Smooth dairy cream with a rich texture, ideal for cooking, desserts and creamy recipes."
+  },
+  {
+    "name": "Sangam Paneer",
+    "image": "assets/images/milkproducts/sangam_paneer.png",
+    "category": "Milk Products",
+    "price": 60,
+    "fat": "Not less than 50% (on Dry matter)",
+    "snf": "0g",
+    "packSize": "100 G",
+    "shelfLife": "15 days from the date of manufacture when stored under refrigeration below 4 °C",
+    "storage": "Keep refrigerated below 4 °C",
+    "description": "Soft and creamy paneer with a rich dairy taste, perfect for curries, snacks, gravies and everyday cooking.",
+    "variants": [
+      {
+        "label": "100 G",
+        "packSize": "100 G",
+        "price": 60,
+        "image": "assets/images/milkproducts/sangam_paneer.png"
+      },
+      {
+        "label": "200 G",
+        "packSize": "200 G",
+        "price": 120,
+        "image": "assets/images/milkproducts/sangam_paneer_200g.png"
+      },
+      {
+        "label": "500 G",
+        "packSize": "500 G",
+        "price": 280,
+        "image": "assets/images/milkproducts/sangam_paneer_500g.png"
+      },
+      {
+        "label": "1 KG",
+        "packSize": "1 KG",
+        "price": 540,
+        "image": "assets/images/milkproducts/sangam_paneer_1kg.png"
+      }
+    ]
+  },
+  {
+    "name": "Sangam Buttermilk",
+    "image": "assets/images/milkproducts/sangam_buttermilk.png",
+    "category": "Milk Products",
+    "price": 20,
+    "fat": "1.5%",
+    "snf": "4.0%",
+    "packSize": "500 ML",
+    "shelfLife": "Pouch with a shelf life of 5 days from date of manufacture when Stored under refrigeration below 5°C",
+    "storage": "Stored under refrigeration below 5°C",
+    "description": "Light and refreshing buttermilk with a smooth dairy taste, perfect for enjoying with meals or as a refreshing drink."
+  },
+  {
+    "name": "Jeera Buttermilk",
+    "image": "assets/images/milkproducts/jeera_buttermilk.png",
+    "category": "Milk Products",
+    "price": 20,
+    "fat": "1.50g",
+    "packSize": "200 ML",
+    "shelfLife": "3 months",
+    "description": "Refreshing buttermilk infused with the distinctive flavour of jeera for a delicious and cooling beverage."
+  },
+  {
+    "name": "Mango Lassi",
+    "image": "assets/images/milkproducts/lassi_mango.png",
+    "category": "Milk Products",
+    "price": 30,
+    "fat": "2.8gms",
+    "packSize": "200 ML",
+    "shelfLife": "Store under refrigeration below 5°C until use by date",
+    "storage": "below 5°C until use by date",
+    "description": "Creamy lassi blended with delicious mango flavour for a smooth, fruity and refreshing drink."
+  },
+  {
+    "name": "Pineapple Lassi",
+    "image": "assets/images/milkproducts/lassi_pineapple.png",
+    "category": "Milk Products",
+    "price": 30,
+    "fat": "2.8gms",
+    "packSize": "200 ML",
+    "shelfLife": "Store under refrigeration below 5°C until use by date",
+    "storage": "below 5°C until use by date",
+    "description": "Smooth and refreshing lassi with a fruity pineapple flavour, perfect for a delicious dairy refreshment."
+  },
+  {
+    "name": "Sabja Lassi",
+    "image": "assets/images/milkproducts/lassi_sabja.png",
+    "category": "Milk Products",
+    "price": 30,
+    "packSize": "200 ML",
+    "description": "Refreshing creamy lassi blended with sabja for a unique and enjoyable traditional-style beverage."
+  },
+  {
+    "name": "Strawberry Lassi",
+    "image": "assets/images/milkproducts/lassi_stawberry.png",
+    "category": "Milk Products",
+    "price": 30,
+    "fat": "2.8gms",
+    "packSize": "200 ML",
+    "shelfLife": "Store under refrigeration below 5°C until use by date",
+    "storage": "below 5°C until use by date",
+    "description": "Creamy lassi with a sweet strawberry flavour, offering a smooth and refreshing dairy drink."
+  },
+  {
+    "name": "Vanilla Lassi",
+    "image": "assets/images/milkproducts/lassi_vanilla.png",
+    "category": "Milk Products",
+    "price": 30,
+    "fat": "3.0 gms",
+    "packSize": "200 ML",
+    "shelfLife": "Store under refrigeration below 5°C until use by date",
+    "storage": "5°C until use by date",
+    "description": "Smooth and creamy lassi with a gentle vanilla flavour for a rich and refreshing taste."
+  },
+  {
+    "name": "Vanilla Lassi Cup",
+    "image": "assets/images/milkproducts/lassi_vanilla_cup.png",
+    "category": "Milk Products",
+    "price": 30,
+    "fat": "3.0 gms",
+    "packSize": "200 ML",
+    "shelfLife": "Store under refrigeration below 5°C until use by date",
+    "storage": "5°C until use by date",
+    "description": "Convenient cup-packed vanilla lassi with a smooth creamy texture and pleasant vanilla flavour."
+  },
+  {
+    "name": "Vanila Milkshake",
+    "image": "assets/images/milkproducts/vanila_milkshake.png",
+    "category": "Milk Products",
+    "price": 40,
+    "fat": "3.1 gms",
+    "packSize": "200 ML",
+    "shelfLife": "270 days from date of manufacture",
+    "storage": "5°C until use by date",
+    "description": "Creamy vanilla milkshake with a smooth texture and classic vanilla flavour for a delicious treat."
+  },
+  {
+    "name": "Butter Scotch Milkshake",
+    "image": "assets/images/milkproducts/butter_scotch_milkshake.png",
+    "category": "Milk Products",
+    "price": 40,
+    "fat": "3.1 gms",
+    "packSize": "200 ML",
+    "shelfLife": "270 days from date of manufacture",
+    "storage": "5°C until use by date",
+    "description": "Rich and creamy butterscotch milkshake with a sweet caramel-like flavour for a satisfying drink."
+  },
+  {
+    "name": "Double Chocolate Milkshake",
+    "image": "assets/images/milkproducts/double_chocolate_milkshake.png",
+    "category": "Milk Products",
+    "price": 40,
+    "fat": "3.1%",
+    "packSize": "200 ML",
+    "shelfLife": "270 days from date of manufacture",
+    "storage": "5°C until use by date",
+    "description": "Indulgent double chocolate milkshake with a rich chocolate flavour and creamy dairy texture."
+  },
+  {
+    "name": "Atta Laddu",
+    "image": "assets/images/sweets/atta_laddu.png",
+    "category": "Sweets",
+    "price": 120,
+    "fat": "21.43g",
+    "packSize": "200 G",
+    "shelfLife": "1Month",
+    "description": "Traditional atta laddu prepared with a rich roasted flavour and satisfying sweetness, perfect for celebrations and snacks."
+  },
+  {
+    "name": "Badam Burfi",
+    "image": "assets/images/sweets/badam_burfi.png",
+    "category": "Sweets",
+    "price": 150,
+    "fat": "30 g",
+    "packSize": "200 G",
+    "shelfLife": "20 days for 200g MAP packing",
+    "description": "Rich and nutty badam burfi with a smooth texture and delicious almond flavour, perfect for gifting and celebrations."
+  },
+  {
+    "name": "Badam Raki",
+    "image": "assets/images/sweets/badam_raki.png",
+    "category": "Sweets",
+    "price": 150,
+    "fat": "32.36g",
+    "packSize": "200 G",
+    "shelfLife": "1 month",
+    "description": "Delicious badam-based sweet with a rich nutty taste and satisfying texture for special occasions and treats."
+  },
+  {
+    "name": "Basundi",
+    "image": "assets/images/sweets/basundi.png",
+    "category": "Sweets",
+    "price": 120,
+    "fat": "12 g",
+    "packSize": "300 G",
+    "shelfLife": "5 days for 50 g Cup & 20 days for 300 GMS when stored under refrigeration below 5 °C",
+    "storage": "stored under refrigeration below 5 °C",
+    "description": "Traditional creamy basundi made with rich dairy flavour, offering a smooth and indulgent sweet experience.",
+    "variants": [
+      {
+        "packSize": "300 G",
+        "price": 120,
+        "image": "assets/images/sweets/basundi.png"
+      },
+      {
+        "packSize": "50 G",
+        "price": 25,
+        "image": "assets/images/sweets/basundi_50g.png"
+      }
+    ]
+  },
+  {
+    "name": "Besan Laddu",
+    "image": "assets/images/sweets/besan_laddu.png",
+    "category": "Sweets",
+    "price": 120,
+    "fat": "24.31g",
+    "packSize": "200 G",
+    "shelfLife": "1 month",
+    "description": "Classic besan laddu with a rich roasted gram flour flavour and traditional sweetness."
+  },
+  {
+    "name": "Chana Laddu",
+    "image": "assets/images/sweets/chana_laddu.png",
+    "category": "Sweets",
+    "price": 120,
+    "fat": "23.63g",
+    "packSize": "200 G",
+    "shelfLife": "1 month",
+    "description": "Traditional chana laddu with a rich roasted flavour and satisfying texture, perfect for festive occasions."
+  },
+  {
+    "name": "Chocolate Kaju Bites",
+    "image": "assets/images/sweets/chocolate_kaju_bites.png",
+    "category": "Sweets",
+    "price": 160,
+    "fat": "33.41g",
+    "packSize": "200 G",
+    "shelfLife": "3 months",
+    "description": "Delicious kaju bites combined with a rich chocolate flavour for a premium nut-and-chocolate sweet."
+  },
+  {
+    "name": "Doodhpeda",
+    "image": "assets/images/sweets/doodhpeda.png",
+    "category": "Sweets",
+    "price": 140,
+    "fat": "21%",
+    "packSize": "200 G",
+    "shelfLife": "5 days for single pieces and 20 days for 200 gm MAP packing.",
+    "description": "Soft and creamy milk peda with a rich traditional dairy flavour, ideal for festive celebrations and sweet cravings.",
+    "variants": [
+      {
+        "packSize": "200 G",
+        "price": 140,
+        "image": "assets/images/sweets/doodhpeda.png"
+      },
+      {
+        "packSize": "20 G",
+        "price": 15,
+        "image": "assets/images/sweets/doodhpeda_20g.png"
+      }
+    ]
+  },
+  {
+    "name": "Gulab Jamun",
+    "image": "assets/images/sweets/gulabjamun.png",
+    "category": "Sweets",
+    "price": 120,
+    "fat": "6.0g",
+    "packSize": "100 G",
+    "shelfLife": "20 days from date of packing Store at cool & dry place",
+    "description": "Soft and juicy gulab jamun soaked in sweet syrup, offering a classic and indulgent Indian dessert experience.",
+    "variants": [
+      {
+        "packSize": "100 G",
+        "price": 120,
+        "image": "assets/images/sweets/gulabjamun.png"
+      },
+      {
+        "packSize": "400 G",
+        "price": 400,
+        "image": "assets/images/sweets/gulabjamun_400g.png"
+      },
+      {
+        "packSize": "500 G",
+        "price": 500,
+        "image": "assets/images/sweets/gulabjamun_500g.png"
+      }
+    ]
+  },
+  {
+    "name": "Jowar Laddu",
+    "image": "assets/images/sweets/jowar_laddu.png",
+    "category": "Sweets",
+    "price": 120,
+    "fat": "29.8 g",
+    "packSize": "200 G",
+    "shelfLife": "20 days for 200g MAP packing",
+    "description": "Traditional jowar laddu with a wholesome grain flavour and delicious sweetness for a satisfying snack."
+  },
+  {
+    "name": "Junnu",
+    "image": "assets/images/sweets/junnu.png",
+    "category": "Sweets",
+    "price": 100,
+    "fat": "3.4g",
+    "packSize": "90 G",
+    "shelfLife": "5 days",
+    "description": "Soft and creamy traditional junnu with a delicate dairy flavour and smooth texture.",
+    "variants": [
+      {
+        "packSize": "90 G",
+        "price": 100,
+        "image": "assets/images/sweets/junnu.png"
+      },
+      {
+        "packSize": "50 G",
+        "price": 60,
+        "image": "assets/images/sweets/junnu_50g.png"
+      }
+    ]
+  },
+  {
+    "name": "Kaju Bites",
+    "image": "assets/images/sweets/kaju_bites.png",
+    "category": "Sweets",
+    "price": 160,
+    "fat": "34.26g",
+    "packSize": "200 G",
+    "shelfLife": "3 months",
+    "description": "Premium kaju bites with a rich cashew flavour and smooth texture, perfect for gifting or enjoying anytime."
+  },
+  {
+    "name": "Kaju Burfi",
+    "image": "assets/images/sweets/kaju_burfi.png",
+    "category": "Sweets",
+    "price": 160,
+    "fat": "32g",
+    "packSize": "200 G",
+    "shelfLife": "20 days for 200g MAP packing",
+    "description": "Classic kaju burfi made with a rich cashew flavour and smooth, melt-in-the-mouth texture."
+  },
+  {
+    "name": "Kalakand",
+    "image": "assets/images/sweets/kalakand.png",
+    "category": "Sweets",
+    "price": 150,
+    "fat": "21g",
+    "packSize": "200 G",
+    "shelfLife": "200 g pack now come with Map Packing filled packing with a shelf life of 20 days from date of packingStore at cool & dry place",
+    "storage": "packingStore at cool & dry place",
+    "description": "Rich and creamy traditional kalakand with a soft milk-based texture and delicious festive sweetness."
+  },
+  {
+    "name": "Kesar Pista",
+    "image": "assets/images/sweets/kesar_pista.png",
+    "category": "Sweets",
+    "price": 150,
+    "fat": "1.5%",
+    "snf": "9.0%",
+    "packSize": "200 ml",
+    "shelfLife": "3 months from date of manufacture when stored in a cool place",
+    "storage": "in cool place",
+    "description": "A rich kesar and pista flavoured dairy treat with a creamy taste and delightful nutty character."
+  },
+  {
+    "name": "Korra Laddu",
+    "image": "assets/images/sweets/korra_laddu.png",
+    "category": "Sweets",
+    "price": 120,
+    "fat": "27.14g",
+    "packSize": "200 G",
+    "shelfLife": "20 days",
+    "description": "Traditional korra laddu with a wholesome millet-based flavour and satisfying sweetness."
+  },
+  {
+    "name": "Malai Laddu",
+    "image": "assets/images/sweets/malailaddu.png",
+    "category": "Sweets",
+    "price": 240,
+    "fat": "30.8g",
+    "packSize": "150 G",
+    "shelfLife": "150 g pack now come with Map Packing filled packing with a shelf life of 20 days from date of packingStore at cool & dry place",
+    "storage": "packingStore at cool & dry place",
+    "description": "Soft and creamy malai laddu with a rich dairy flavour, offering a luxurious traditional sweet experience."
+  },
+  {
+    "name": "Milk Cake",
+    "image": "assets/images/sweets/milk_cake.png",
+    "category": "Sweets",
+    "price": 150,
+    "fat": "36g",
+    "packSize": "200 G",
+    "shelfLife": "200 g pack now come with Map Packing filled packing with a shelf life of 20 days from date of packingStore at cool & dry place",
+    "storage": "packingStore at cool & dry place",
+    "description": "Traditional milk cake with a rich concentrated milk flavour and soft, grainy texture."
+  },
+  {
+    "name": "Mixed Millet Laddu",
+    "image": "assets/images/sweets/mixed_millet_laddu.png",
+    "category": "Sweets",
+    "price": 130,
+    "fat": "27.5%",
+    "packSize": "200 G",
+    "shelfLife": "20 days",
+    "description": "Wholesome mixed millet laddu combining traditional sweetness with the distinctive flavour of millets."
+  },
+  {
+    "name": "Orange Kaju Bites",
+    "image": "assets/images/sweets/orange_kaju_bites.png",
+    "category": "Sweets",
+    "price": 160,
+    "fat": "34.29g",
+    "packSize": "200 G",
+    "shelfLife": "3 months",
+    "description": "Premium kaju bites with a refreshing orange flavour, combining rich cashew taste with fruity notes."
+  },
+  {
+    "name": "Pista Chio",
+    "image": "assets/images/sweets/pista_chio.png",
+    "category": "Sweets",
+    "price": 150,
+    "fat": "1.5%",
+    "snf": "9.0%",
+    "packSize": "200 ml",
+    "shelfLife": "3 months from date of manufacture when stored in a cool place",
+    "storage": "in cool place",
+    "description": "A creamy pista-flavoured dairy treat with a pleasant nutty taste for a delicious sweet refreshment."
+  },
+  {
+    "name": "Ragi Laddu",
+    "image": "assets/images/sweets/raggiladdu.png",
+    "category": "Sweets",
+    "price": 120,
+    "fat": "25.79 g",
+    "packSize": "200 G",
+    "shelfLife": "20 days",
+    "description": "Traditional ragi laddu with a distinctive millet flavour and satisfying sweetness, perfect for a wholesome snack."
+  },
+  {
+    "name": "Rasagulla",
+    "image": "assets/images/sweets/rasagulla.png",
+    "category": "Sweets",
+    "price": 120,
+    "fat": "3.6g",
+    "packSize": "100 G",
+    "shelfLife": "20 days",
+    "description": "Soft and spongy rasagulla soaked in sweet syrup for a light, juicy and delicious traditional dessert.",
+    "variants": [
+      {
+        "packSize": "100 G",
+        "price": 120,
+        "image": "assets/images/sweets/rasagulla.png"
+      },
+      {
+        "packSize": "400 G",
+        "price": 400,
+        "image": "assets/images/sweets/rasagulla_400g.png"
+      }
+    ]
+  },
+  {
+    "name": "Sangam Sweet Pack",
+    "image": "assets/images/sweets/sangam_sweet_pack.png",
+    "category": "Sweets",
+    "price": 200,
+    "packSize": "450 G",
+    "shelfLife": "7 days for 450g",
+    "description": "A convenient assorted Sangam sweet pack featuring a delightful selection of traditional sweet flavours."
+  },
+  {
+    "name": "Sugarless Khova",
+    "image": "assets/images/sweets/sugarless_khova.png",
+    "category": "Sweets",
+    "price": 140,
+    "fat": "29.09g",
+    "packSize": "1 kG",
+    "shelfLife": "1 week",
+    "description": "Rich and creamy sugarless khova with a concentrated milk flavour, suitable for enjoying or preparing sweets."
+  },
+  {
+    "name": "Sunnundalu",
+    "image": "assets/images/sweets/sunnundalu.png",
+    "category": "Sweets",
+    "price": 130,
+    "fat": "14.26g",
+    "packSize": "200 G",
+    "shelfLife": "6 months",
+    "description": "Traditional sunnundalu with a rich roasted flavour and satisfying texture, perfect for festive occasions and snacks."
+  },
+  {
+    "name": "FCM Homogenised Tea Milk",
+    "image": "assets/images/drinks/fcm_homogenised_tea_milk.png",
+    "category": "Drinks",
+    "price": 35,
+    "fat": "6.0%",
+    "snf": "9.0%",
+    "packSize": "500 ML",
+    "shelfLife": "72 hrs from the date of manufacture when stored at 5 °C",
+    "storage": "stored at 5 °C",
+    "description": "Rich homogenised milk specially suited for tea and coffee, offering a smooth creamy dairy taste."
+  },
+  {
+    "name": "Lemon Ginger",
+    "image": "assets/images/drinks/lemon_ginger.png",
+    "category": "Drinks",
+    "price": 30,
+    "fat": "0 g",
+    "snf": "0 g",
+    "packSize": "200 ML",
+    "shelfLife": "4 months",
+    "description": "Refreshing lemon and ginger beverage with a bright citrus flavour and a pleasant ginger finish."
+  },
+  {
+    "name": "Mango Magic",
+    "image": "assets/images/drinks/mango_magic.png",
+    "category": "Drinks",
+    "price": 30,
+    "fat": "0 g",
+    "snf": "0 g",
+    "packSize": "200 ML",
+    "shelfLife": "4 months",
+    "description": "Refreshing mango-flavoured drink with a fruity and enjoyable taste, perfect for a quick refreshment.",
+    "variants": [
+      {
+        "packSize": "200 ML",
+        "price": 30,
+        "image": "assets/images/drinks/mango_magic.png"
+      },
+      {
+        "packSize": "300 ML",
+        "price": 40,
+        "image": "assets/images/drinks/mango_magic_300ml.png"
+      },
+      {
+        "packSize": "600 ML",
+        "price": 70,
+        "image": "assets/images/drinks/mango_magic_600ml.png"
+      },
+      {
+        "packSize": "1 LTR",
+        "price": 110,
+        "image": "assets/images/drinks/mango_magic_1ltr.png"
+      },
+      {
+        "packSize": "2 LTR",
+        "price": 200,
+        "image": "assets/images/drinks/mango_magic_2ltr.png"
+      }
+    ]
+  },
+  {
+    "name": "Sangam Jeera",
+    "image": "assets/images/drinks/sangam_jeera.png",
+    "category": "Drinks",
+    "price": 30,
+    "fat": "0g",
+    "snf": "0g",
+    "packSize": "200 ML",
+    "shelfLife": "4 months",
+    "description": "Refreshing jeera-flavoured drink with a distinctive cumin taste, perfect for a light and enjoyable beverage."
+  },
+  {
+    "name": "Sangam Orange",
+    "image": "assets/images/drinks/sangam_orange.png",
+    "category": "Drinks",
+    "price": 30,
+    "fat": "0g",
+    "snf": "0g",
+    "packSize": "200 ML",
+    "shelfLife": "4 months",
+    "description": "Bright and refreshing orange-flavoured drink with a fruity citrus taste for everyday refreshment."
+  },
+  {
+    "name": "Chegodilu",
+    "image": "assets/images/savories/chegodilu.png",
+    "category": "Savories",
+    "price": 100,
+    "fat": "21.50g",
+    "packSize": "200 G",
+    "shelfLife": "3 months",
+    "description": "Crispy traditional chegodilu with a crunchy texture and savoury flavour, perfect for tea-time snacking."
+  },
+  {
+    "name": "Corn Flakes",
+    "image": "assets/images/savories/corn_flakes.png",
+    "category": "Savories",
+    "price": 120,
+    "fat": "30.00g",
+    "packSize": "200 G",
+    "shelfLife": "3 months",
+    "description": "Crunchy corn flakes with a light and crispy texture, suitable for breakfast or enjoyable snacking."
+  },
+  {
+    "name": "Kara Boondi",
+    "image": "assets/images/savories/kara_boondi.png",
+    "category": "Savories",
+    "price": 100,
+    "fat": "27.00g",
+    "packSize": "200 G",
+    "shelfLife": "3 months",
+    "description": "Crispy and spicy kara boondi with a savoury flavour, perfect for tea-time, snacks and festive occasions."
+  },
+  {
+    "name": "Murukulu",
+    "image": "assets/images/savories/murukulu.png",
+    "category": "Savories",
+    "price": 100,
+    "fat": "22.50g",
+    "packSize": "200 G",
+    "shelfLife": "3 months",
+    "description": "Traditional crunchy murukulu with a delicious savoury taste, ideal for tea-time and casual snacking."
+  },
+  {
+    "name": "Ribbon Pakodi",
+    "image": "assets/images/savories/ribbon_pakodi.png",
+    "category": "Savories",
+    "price": 100,
+    "fat": "25.00g",
+    "packSize": "200 G",
+    "shelfLife": "3 months",
+    "description": "Crispy ribbon pakodi with a crunchy texture and savoury flavour, perfect for snack time and sharing."
+  },
+  {
+    "name": "Chicken Masala",
+    "image": "assets/images/spieces/chicken_masala.png",
+    "category": "Spices",
+    "price": 10,
+    "fat": "10g",
+    "packSize": "8G",
+    "shelfLife": "12 months",
+    "description": "Aromatic chicken masala blend crafted to add rich colour, flavour and spice to chicken dishes."
+  },
+  {
+    "name": "Chilli Powder",
+    "image": "assets/images/spieces/chilli_powder.png",
+    "category": "Spices",
+    "price": 30,
+    "fat": "16.76g",
+    "packSize": "50 G",
+    "shelfLife": "12 months",
+    "description": "Finely ground chilli powder that adds vibrant colour and a spicy kick to curries, gravies and everyday dishes.",
+    "variants": [
+      {
+        "label": "50 G",
+        "packSize": "50 G",
+        "price": 30,
+        "image": "assets/images/spieces/chilli_powder.png"
+      },
+      {
+        "label": "100 G",
+        "packSize": "100 G",
+        "price": 60,
+        "image": "assets/images/spieces/chilli_powder_100g.png"
+      },
+      {
+        "label": "200 G",
+        "packSize": "200 G",
+        "price": 120,
+        "image": "assets/images/spieces/chilli_powder_200g.png"
+      }
+    ]
+  },
+  {
+    "name": "Garam Masala",
+    "image": "assets/images/spieces/garam_masala.png",
+    "category": "Spices",
+    "price": 10,
+    "fat": "20g",
+    "packSize": "8 G",
+    "shelfLife": "12 months",
+    "description": "Aromatic garam masala blend that brings warm, rich and traditional spice flavours to a variety of dishes.",
+    "variants": [
+      {
+        "label": "8 G",
+        "packSize": "8 G",
+        "price": 10,
+        "image": "assets/images/spieces/garam_masala.png"
+      },
+      {
+        "label": "50 G",
+        "packSize": "50 G",
+        "price": 30,
+        "image": "assets/images/spieces/garam_masala_50g.png"
+      }
+    ]
+  },
+  {
+    "name": "Sambar Powder",
+    "image": "assets/images/spieces/sambar_powder.png",
+    "category": "Spices",
+    "price": 10,
+    "fat": "14g",
+    "packSize": "8 G",
+    "shelfLife": "12 months",
+    "description": "Traditional sambar powder blend that adds aromatic spice, depth and authentic flavour to homemade sambar.",
+    "variants": [
+      {
+        "label": "8 G",
+        "packSize": "8 G",
+        "price": 10,
+        "image": "assets/images/spieces/sambar_powder.png"
+      },
+      {
+        "label": "50 G",
+        "packSize": "50 G",
+        "price": 30,
+        "image": "assets/images/spieces/sambar_powder_50g.png"
+      }
+    ]
+  },
+  {
+    "name": "Turmeric Powder",
+    "image": "assets/images/spieces/turmeric_powder.png",
+    "category": "Spices",
+    "price": 10,
+    "fat": "9.90g",
+    "packSize": "50 G",
+    "shelfLife": "12 months",
+    "description": "Fine turmeric powder with natural golden colour and earthy flavour, ideal for curries, dals and everyday cooking.",
+    "variants": [
+      {
+        "label": "50 G",
+        "packSize": "50 G",
+        "price": 10,
+        "image": "assets/images/spieces/turmeric_powder.png"
+      },
+      {
+        "label": "100 G",
+        "packSize": "100 G",
+        "price": 20,
+        "image": "assets/images/spieces/turmeric_powder_100g.png"
+      }
+    ]
+  },
+  {
+    "name": "Ulavacharu",
+    "image": "assets/images/spieces/ulavacharu.png",
+    "category": "Spices",
+    "price": 50,
+    "packSize": "100 G",
+    "fat": "3.0g",
+    "snf": "0g",
+    "shelfLife": "30 Days if stored under refrigeration.7 Days in normal conditions.",
+    "storage": "Store in a cool, dry place",
+    "description": "Traditional Andhra-style ulavacharu with a rich, tangy and earthy flavour, perfect with rice and traditional meals.",
+    "variants": [
+      {
+        "label": "100 G",
+        "packSize": "100 G",
+        "price": 50,
+        "image": "assets/images/spieces/ulavacharu.png"
+      },
+      {
+        "label": "250 G",
+        "packSize": "250 G",
+        "price": 100,
+        "image": "assets/images/spieces/ulavacharu_250g.png"
+      },
+      {
+        "label": "500 G",
+        "packSize": "500 G",
+        "price": 180,
+        "image": "assets/images/spieces/ulavacharu_500g.png"
+      },
+      {
+        "label": "1 KG",
+        "packSize": "1 KG",
+        "price": 340,
+        "image": "assets/images/spieces/ulavacharu_1kg.png"
+      }
+    ]
+  },
+  {
+    "name": "Badam Powder",
+    "image": "assets/images/other_products/badam_powder.png",
+    "category": "Other Products",
+    "price": 150,
+    "fat": "4.7%",
+    "packSize": "200 G",
+    "shelfLife": "4 months from date of manufacture",
+    "description": "Rich and nutty badam powder with a delicious almond flavour, ideal for preparing milk drinks, desserts and everyday recipes."
+  }
+]
