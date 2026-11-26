@@ -31,8 +31,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
   // CUSTOMER DETAILS
   // ============================================================
 
-  static const String customerName = 'Gopi Gandra';
-
+  String _customerName = 'Valued Customer';
   String _mobile = '';
   String _address = '';
   String _city = '';
@@ -43,6 +42,9 @@ class _ProfileScreenState extends State<ProfileScreen> {
   // ============================================================
   // CONTROLLERS
   // ============================================================
+
+  final TextEditingController _nameController =
+  TextEditingController();
 
   final TextEditingController _mobileController =
   TextEditingController();
@@ -68,6 +70,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
 
   @override
   void dispose() {
+    _nameController.dispose();
     _mobileController.dispose();
     _addressController.dispose();
     _cityController.dispose();
@@ -85,7 +88,12 @@ class _ProfileScreenState extends State<ProfileScreen> {
     if (!mounted) return;
 
     setState(() {
-      _mobile = prefs.getString('sangam_customer_mobile') ?? '';
+      _customerName = prefs.getString('sangam_customer_name') ??
+          prefs.getString('sangam_signup_name') ??
+          'Valued Customer';
+      _mobile = prefs.getString('sangam_customer_mobile') ??
+          prefs.getString('sangam_signup_mobile') ??
+          '';
       _address = prefs.getString('sangam_customer_address') ?? '';
       _city = prefs.getString('sangam_customer_city') ?? '';
       _pincode = prefs.getString('sangam_customer_pincode') ?? '';
@@ -98,12 +106,23 @@ class _ProfileScreenState extends State<ProfileScreen> {
   // ============================================================
 
   Future<void> _saveProfile({
+    required String name,
     required String mobile,
     required String address,
     required String city,
     required String pincode,
   }) async {
     final prefs = await SharedPreferences.getInstance();
+
+    await prefs.setString(
+      'sangam_customer_name',
+      name,
+    );
+
+    await prefs.setString(
+      'sangam_signup_name',
+      name,
+    );
 
     await prefs.setString(
       'sangam_customer_mobile',
@@ -128,6 +147,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
     if (!mounted) return;
 
     setState(() {
+      _customerName = name;
       _mobile = mobile;
       _address = address;
       _city = city;
@@ -140,6 +160,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
   // ============================================================
 
   Future<void> _showEditProfileDialog() async {
+    _nameController.text = _customerName;
     _mobileController.text = _mobile;
     _addressController.text = _address;
     _cityController.text = _city;
@@ -198,7 +219,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             ),
                             SizedBox(height: 3),
                             Text(
-                              'Update your delivery details',
+                              'Update your personal & delivery details',
                               style: TextStyle(
                                 fontSize: 12,
                                 color: Colors.black54,
@@ -228,12 +249,9 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   // ==================================================
 
                   _buildInputField(
-                    controller: TextEditingController(
-                      text: customerName,
-                    ),
-                    label: 'Name',
+                    controller: _nameController,
+                    label: 'Full Name',
                     icon: Icons.person_outline_rounded,
-                    enabled: false,
                   ),
 
                   const SizedBox(height: 14),
@@ -304,6 +322,9 @@ class _ProfileScreenState extends State<ProfileScreen> {
                       cursor: SystemMouseCursors.click,
                       child: ElevatedButton(
                         onPressed: () async {
+                          final name =
+                          _nameController.text.trim();
+
                           final mobile =
                           _mobileController.text.trim();
 
@@ -315,6 +336,17 @@ class _ProfileScreenState extends State<ProfileScreen> {
 
                           final pincode =
                           _pincodeController.text.trim();
+
+                          if (name.isEmpty) {
+                            ScaffoldMessenger.of(context).showSnackBar(
+                              const SnackBar(
+                                content: Text(
+                                  'Please enter your name.',
+                                ),
+                              ),
+                            );
+                            return;
+                          }
 
                           if (mobile.isNotEmpty &&
                               !RegExp(r'^[0-9]{10}$')
@@ -332,6 +364,23 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           if (pincode.isNotEmpty &&
                               !RegExp(r'^[0-9]{6}$')
                                   .hasMatch(pincode)) {
+                            ScaffoldMessenger.of(context).showSnackBar(
+                              const SnackBar(
+                                content: Text(
+                                  'Please enter a valid 6-digit pincode.',
+                                ),
+                              ),
+                            );
+                            return;
+                          }
+
+                          await _saveProfile(
+                            name: name,
+                            mobile: mobile,
+                            address: address,
+                            city: city,
+                            pincode: pincode,
+                          );
                             ScaffoldMessenger.of(context).showSnackBar(
                               const SnackBar(
                                 content: Text(
@@ -786,12 +835,12 @@ class _ProfileScreenState extends State<ProfileScreen> {
               // USER DETAILS
               // ======================================================
 
-              const Expanded(
+              Expanded(
                 child: Column(
                   crossAxisAlignment:
                   CrossAxisAlignment.start,
                   children: [
-                    Text(
+                    const Text(
                       'Welcome back,',
                       style: TextStyle(
                         color: Colors.white70,
@@ -799,10 +848,10 @@ class _ProfileScreenState extends State<ProfileScreen> {
                         fontWeight: FontWeight.w500,
                       ),
                     ),
-                    SizedBox(height: 5),
+                    const SizedBox(height: 5),
                     Text(
-                      customerName,
-                      style: TextStyle(
+                      _customerName,
+                      style: const TextStyle(
                         color: Colors.white,
                         fontSize: 26,
                         fontWeight: FontWeight.w900,

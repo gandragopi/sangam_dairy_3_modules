@@ -510,7 +510,7 @@ class OrderSuccessScreen extends StatelessWidget {
                           Icons.person_outline,
                           'Customer',
                           customerName.isEmpty
-                              ? 'Gopi Gandra'
+                              ? 'Valued Customer'
                               : customerName,
                         ),
 

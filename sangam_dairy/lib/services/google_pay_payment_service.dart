@@ -2,7 +2,7 @@ import 'package:android_intent_plus/android_intent.dart';
 
 class GooglePayPaymentService {
   // Sangam Dairy UPI ID
-  static const String upiId = 'gandragopigandra123-1@okhdfcbank';
+  static const String upiId = 'sangamdairy@okhdfcbank';
 
   // Name shown inside Google Pay
   static const String payeeName = 'Sangam Dairy';

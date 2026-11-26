@@ -32,7 +32,7 @@ class _ReferralScreenState extends State<ReferralScreen> {
   // REFERRAL DATA
   // ============================================================
 
-  String _referralCode = 'SANGAMGOPI10';
+  String _referralCode = 'SANGAM10';
 
   int _friendsReferred = 0;
   double _totalRewards = 0;
@@ -58,6 +58,14 @@ class _ReferralScreenState extends State<ReferralScreen> {
   Future<void> _loadReferralData() async {
     final prefs = await SharedPreferences.getInstance();
 
+    final savedName = prefs.getString('sangam_customer_name') ??
+        prefs.getString('sangam_signup_name') ??
+        'DAIRY';
+    final nameClean = savedName.trim().replaceAll(RegExp(r'[^a-zA-Z]'), '').toUpperCase();
+    final defaultCode = nameClean.isNotEmpty
+        ? 'SANGAM${nameClean.length > 4 ? nameClean.substring(0, 4) : nameClean}10'
+        : 'SANGAM10';
+
     final savedData = prefs.getString(_storageKey);
 
     if (savedData != null && savedData.isNotEmpty) {
@@ -66,7 +74,7 @@ class _ReferralScreenState extends State<ReferralScreen> {
 
         if (decoded is Map<String, dynamic>) {
           _referralCode =
-              decoded['referralCode']?.toString() ?? _referralCode;
+              decoded['referralCode']?.toString() ?? defaultCode;
 
           _friendsReferred =
               int.tryParse(

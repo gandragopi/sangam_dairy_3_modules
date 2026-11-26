@@ -123,17 +123,28 @@ class _LoginScreenState extends State<LoginScreen> {
     try {
       final SharedPreferences prefs = await SharedPreferences.getInstance();
 
-      // Fixed default test credentials or registered credentials
-      final savedMobile = prefs.getString('sangam_signup_mobile') ?? '9390736087';
-      final savedPassword = prefs.getString('sangam_signup_password') ?? 'Gandra@2003';
+      final savedMobile = prefs.getString('sangam_signup_mobile');
+      final savedPassword = prefs.getString('sangam_signup_password');
 
-      // Strict check: must match fixed/registered mobile and password
-      if (mobile != savedMobile || password != savedPassword) {
-        throw Exception('Invalid mobile number or password. Please check your credentials.');
+      // If registered credentials exist, verify against them
+      if (savedMobile != null && savedPassword != null) {
+        if (mobile != savedMobile || password != savedPassword) {
+          throw Exception('Invalid mobile number or password. Please check your credentials.');
+        }
+      } else {
+        // First login: save entered credentials locally
+        await prefs.setString('sangam_signup_mobile', mobile);
+        await prefs.setString('sangam_signup_password', password);
       }
 
       await prefs.setBool('sangam_is_logged_in', true);
       await prefs.setString('sangam_customer_mobile', mobile);
+
+      // Ensure customer name is preserved
+      final signupName = prefs.getString('sangam_signup_name');
+      if (signupName != null && signupName.isNotEmpty) {
+        await prefs.setString('sangam_customer_name', signupName);
+      }
 
       if (!mounted) return;
       setState(() => _isLoading = false);
