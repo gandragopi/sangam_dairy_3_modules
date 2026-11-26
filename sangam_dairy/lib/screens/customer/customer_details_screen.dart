@@ -26,7 +26,7 @@ class _CustomerDetailsScreenState
   // CUSTOMER NAME
   // ============================================================
 
-  static const String customerName = 'Gopi Gandra';
+  String _customerName = 'Valued Customer';
 
   // ============================================================
   // CONTROLLERS
@@ -47,8 +47,40 @@ class _CustomerDetailsScreenState
   bool _saving = false;
 
   // ============================================================
-  // DISPOSE
+  // INIT & DISPOSE
   // ============================================================
+
+  @override
+  void initState() {
+    super.initState();
+    _loadCustomerDetails();
+  }
+
+  Future<void> _loadCustomerDetails() async {
+    final prefs = await SharedPreferences.getInstance();
+
+    final name = prefs.getString('sangam_customer_name') ??
+        prefs.getString('sangam_signup_name');
+    final mobile = prefs.getString('sangam_customer_mobile') ??
+        prefs.getString('sangam_signup_mobile');
+    final address = prefs.getString('sangam_customer_address');
+    final city = prefs.getString('sangam_customer_city');
+    final pincode = prefs.getString('sangam_customer_pincode');
+
+    if (!mounted) return;
+
+    setState(() {
+      if (name != null && name.isNotEmpty) {
+        _customerName = name;
+      }
+      if (mobile != null && mobile.isNotEmpty) {
+        _mobileController.text = mobile;
+      }
+      if (address != null) _addressController.text = address;
+      if (city != null) _cityController.text = city;
+      if (pincode != null) _pincodeController.text = pincode;
+    });
+  }
 
   @override
   void dispose() {
@@ -402,22 +434,22 @@ class _CustomerDetailsScreenState
                   size: 21,
                 ),
                 const SizedBox(width: 12),
-                const Expanded(
+                Expanded(
                   child: Column(
                     crossAxisAlignment:
                     CrossAxisAlignment.start,
                     children: [
-                      Text(
+                      const Text(
                         'Name',
                         style: TextStyle(
                           color: Colors.black45,
                           fontSize: 11,
                         ),
                       ),
-                      SizedBox(height: 3),
+                      const SizedBox(height: 3),
                       Text(
-                        customerName,
-                        style: TextStyle(
+                        _customerName,
+                        style: const TextStyle(
                           color: darkGreen,
                           fontSize: 15,
                           fontWeight: FontWeight.w800,

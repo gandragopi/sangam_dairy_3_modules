@@ -36,6 +36,7 @@ class _OrdersScreenState extends State<OrdersScreen>
 
   List<Map<String, dynamic>> _orders = [];
   Map<String, dynamic> _reviews = {};
+  String _savedCustomerName = 'Valued Customer';
 
   final Set<String> _cancelledOrderIds = <String>{};
 
@@ -72,6 +73,10 @@ class _OrdersScreenState extends State<OrdersScreen>
 
       final prefs = await SharedPreferences.getInstance();
 
+      final name = prefs.getString('sangam_customer_name') ??
+          prefs.getString('sangam_signup_name') ??
+          'Valued Customer';
+
       final reviewString =
       prefs.getString('sangam_dairy_reviews');
 
@@ -96,6 +101,7 @@ class _OrdersScreenState extends State<OrdersScreen>
       if (!mounted) return;
 
       setState(() {
+        _savedCustomerName = name;
         _orders =
         List<Map<String, dynamic>>.from(orders);
         _reviews = reviews;
@@ -156,7 +162,7 @@ class _OrdersScreenState extends State<OrdersScreen>
       return value.toString();
     }
 
-    return 'Gopi Gandra';
+    return _savedCustomerName;
   }
 
   String _getPaymentMethod(

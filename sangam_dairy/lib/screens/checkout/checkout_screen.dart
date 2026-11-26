@@ -26,7 +26,7 @@ class _CheckoutScreenState extends State<CheckoutScreen> {
   // CUSTOMER
   // ============================================================
 
-  static const String _customerName = 'Gopi Gandra';
+  String _customerName = 'Valued Customer';
 
   final TextEditingController _mobileController =
   TextEditingController();
@@ -49,6 +49,7 @@ class _CheckoutScreenState extends State<CheckoutScreen> {
   // SHARED PREFERENCES KEYS
   // ============================================================
 
+  static const String _nameKey = 'sangam_customer_name';
   static const String _mobileKey = 'sangam_customer_mobile';
   static const String _addressKey = 'sangam_customer_address';
   static const String _cityKey = 'sangam_customer_city';
@@ -72,6 +73,9 @@ class _CheckoutScreenState extends State<CheckoutScreen> {
     try {
       final prefs = await SharedPreferences.getInstance();
 
+      final name = prefs.getString(_nameKey) ??
+          prefs.getString('sangam_signup_name') ??
+          'Valued Customer';
       final mobile = prefs.getString(_mobileKey) ?? '';
       final address = prefs.getString(_addressKey) ?? '';
       final city = prefs.getString(_cityKey) ?? '';
@@ -82,6 +86,7 @@ class _CheckoutScreenState extends State<CheckoutScreen> {
       if (!mounted) return;
 
       setState(() {
+        _customerName = name;
         _mobileController.text = mobile;
         _addressController.text = address;
         _cityController.text = city;
@@ -613,10 +618,10 @@ class _CheckoutScreenState extends State<CheckoutScreen> {
                 size: 21,
               ),
               const SizedBox(width: 12),
-              const Expanded(
+              Expanded(
                 child: Text(
                   _customerName,
-                  style: TextStyle(
+                  style: const TextStyle(
                     fontSize: 14,
                     fontWeight: FontWeight.w700,
                     color: darkGreen,
