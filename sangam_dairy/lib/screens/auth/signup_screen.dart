@@ -348,7 +348,17 @@ class _SignupScreenState extends State<SignupScreen> {
       );
 
       await prefs.setString(
+        'sangam_customer_name',
+        name,
+      );
+
+      await prefs.setString(
         'sangam_signup_email',
+        email,
+      );
+
+      await prefs.setString(
+        'sangam_customer_email',
         email,
       );
 
