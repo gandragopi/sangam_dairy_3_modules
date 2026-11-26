@@ -1,0 +1,23 @@
+# --- IDEA / IDEs ---
+.idea/
+*.iml
+.vscode/
+
+# --- Spring Boot / Backend ---
+**/target/
+**/build/
+*.log
+data/*.mv.db
+data/*.trace.db
+data/*.lock.db
+
+# --- Admin / Frontend ---
+**/node_modules/
+**/dist/
+.env
+
+# --- Mobile (Flutter / Android) ---
+**/.dart_tool/
+**/.pub/
+**/ios/Flutter/Flutter.framework
+**/build/
